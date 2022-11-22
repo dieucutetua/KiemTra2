@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetailActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="202dp"
+            android:layout_height="225dp"
+            android:padding="10dp"
+            android:src="@drawable/catrich" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvname"
+                android:text="Cá trích "
+                android:textSize="26dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvinfor"
+                android:text="Cá trích, tên gọi khoa học là Sardinella, thuộc họ Cá trích (Clupeidae). Hình dạng của cá trích khá giống với cá mai nhưng nó có kích thước to hơn, thân dài, xương nhỏ, lớp da có màu hơi xanh và hai hàm bằng nhau. Răng cá trích nhỏ, vảy tròn mỏng thường dễ rụng và ở phần sống bụng có răng cưa"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vị trí "
+                android:textStyle="bold"
+                android:textSize="26dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvvitri"
+                android:text="Cá trích thường sống ở tầng nước mặt, bơi khá nhanh do có khúc đuôi khỏe. Theo thông tin ghi chép, cá trích thuộc nhóm cá xương có thân nhỏ, tồn tại được sau thảm họa tuyệt chủng vào cuối kỷ Phấn trắng nên chúng vẫn còn xuất hiện cho đến ngày nay"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

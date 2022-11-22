@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm danh sách loai cá"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khoa học của loài cá"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtTenThuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thường gọi"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtDacTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đặc tính của cá"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edtMauSac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập màu sắc"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonAdd"
+        android:layout_gravity="center"
+        android:background="@drawable/button3"
+        android:text="Add"/>
+</LinearLayout>

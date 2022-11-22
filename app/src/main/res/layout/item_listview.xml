@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp" >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="82dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/picture_ca" />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTenKH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên khoa học " />
+
+        <TextView
+            android:id="@+id/txtTenThuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên thường " />
+
+        <TextView
+            android:id="@+id/txtDacTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặc tính " />
+        <TextView
+            android:id="@+id/txtMauSac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Màu sắc" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        />
+</LinearLayout>

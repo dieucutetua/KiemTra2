@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetailActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="202dp"
+            android:layout_height="225dp"
+            android:padding="10dp"
+            android:src="@drawable/catre" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvname"
+                android:text="Cá trê"
+                android:textSize="26dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvinfor"
+                android:text="Mỗi loại cá trê có đặc điểm hình dạng khác nhau. Chẳng hạn, cá trê đen (còn gọi là cá trê Hồng Kông) có thân đen dài, lớp da nhẵn bóng; phần đầu dẹt bằng, trong khi phần thân và đuôi có xu hướng dẹt bên; miệng rộng, răng sắc nhọn cùng với bốn đôi râu dài; mắt nhỏ và lỗ mũi cách xa nhau."
+                android:textSize="26dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vị trí "
+                android:textStyle="bold"
+                android:textSize="26dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvvitri"
+                android:text="Cá trê hoặc họ Cá trê nói chung đều có tên gọi khoa học là Clariidae, gồm khoảng 114 loài cá trê đều sống trong môi trường nước ngọt. Phần lớn, cá trê sống ở khu vực Đông Nam Á nhưng loài đa dạng nhất là ở châu Phi."
+                android:textSize="16dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
